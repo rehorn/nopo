@@ -1,0 +1,24 @@
+{
+    "NOPO_PARSER": "nopo",
+    "tasks": {
+        "task1": {
+            "cmd": "copy|compress",
+            "source": "./",
+            "target": "./",
+            "@copy": {
+                "test": true
+            }
+        },
+        "task2": {
+            "cmd": "copy,compress",
+            "source": "./",
+            "target": "./"
+        },
+        "task3": {
+            "cmd": "copy",
+            "source": "./",
+            "target": "./"
+        }
+    },
+    "groups": "task1|task2,task3"
+}
