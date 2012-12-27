@@ -10,7 +10,7 @@
             }
         },
         "task2": {
-            "cmd": "copy,compress",
+            "cmd": "copy,compress,concat",
             "source": "./",
             "target": "./"
         },
