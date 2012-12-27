@@ -1,5 +1,5 @@
-{
-    "NOPO_PARSER": "nopo-json",
+module.exports = {
+    "NOPO_PARSER": "nopo-node",
     "ADD_PLAIN_EXT": "abc,def",
     "tasks": {
         "task1": {
