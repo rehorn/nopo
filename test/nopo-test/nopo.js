@@ -1,17 +1,14 @@
 module.exports = {
     "NOPO_PARSER": "nopo-node",
+    "TARGET_ROOT": "./nopo-node",
     "ADD_PLAIN_EXT": "abc,def",
     "tasks": {
         "task1": {
-            "cmd": "copy|compress",
             "source": "./",
-            "target": "./",
-            "@copy": {
-                "test": true
-            }
+            "target": "./"
         },
         "task2": {
-            "cmd": "copy,compress,concat",
+            "cmd": "copy",
             "source": "./",
             "target": "./"
         },
@@ -21,5 +18,5 @@ module.exports = {
             "target": "./"
         }
     },
-    "groups": "task1,task2|task3"
+    groups: 'task1|task3,task2'
 }
