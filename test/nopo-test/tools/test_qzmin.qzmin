@@ -1,0 +1,21 @@
+{
+	projects: [
+		{
+			name: "Jx Custom Version for Q+ Explorer",
+			target: "jx.custom.js",
+			include: [
+				'../js/jx/jx.base.js',
+				'../js/jx/jx.array.js',
+				'../js/jx/jx.string.js',
+				'../js/jx/jx.cookie.js',
+				'../js/jx/jx.mini.js',
+				'../js/jx/jx.http.js',
+				'../js/jx/jx.loglite.js'
+			]
+		}
+	],
+	level: 0,
+	shrink: false,
+	encode: "utf-8",
+	comment: "Q+ Group 2010"
+}

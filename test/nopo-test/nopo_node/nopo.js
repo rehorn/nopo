@@ -16,10 +16,5 @@ module.exports = {
             "source": "js/*.js",
             "target": "./node_concat.js"
         },
-        "task4": {
-            "cmd": "qzmin",
-            "source": "tools/*.qzmin",
-            "target": "./node_concat.js"
-        },
     }
 }
