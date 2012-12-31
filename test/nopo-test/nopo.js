@@ -1,22 +1,15 @@
 module.exports = {
     "NOPO_PARSER": "nopo-node",
-    "TARGET_ROOT": "./nopo-node",
-    "ADD_PLAIN_EXT": "abc,def",
+    "TARGET_ROOT": "./nopo_node",
     "tasks": {
         "task1": {
-            "source": "./",
+            "cmd": "remove",
+            "source": "./nopo_node",
             "target": "./"
         },
         "task2": {
-            "cmd": "copy",
-            "source": "./",
-            "target": "./"
-        },
-        "task3": {
-            "cmd": "copy",
-            "source": "./",
+            "source": "**",
             "target": "./"
         }
-    },
-    groups: 'task1|task3,task2'
+    }
 }
