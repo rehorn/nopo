@@ -1,2 +1,2 @@
-node ../nopo/nopo.js
+node ../../nopo/nopo.js
 pause

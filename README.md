@@ -1,7 +1,7 @@
 NoPo
 ====
 
-NoPo is task-based build / process tool for web project (html/js/css) based on NodeJS, like jake / grunt / ant.
+NoPo(no-person-operation) is task-based build / process tool for web project (html/js/css) based on NodeJS, like jake / grunt / ant.
 
 default cmds:
 qzmin

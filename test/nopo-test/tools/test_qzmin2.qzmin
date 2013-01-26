@@ -2,10 +2,10 @@
     projects: [
         {
             name: "Jx Custom Version for Q+ Explorer",
-            target: "js.all.js",
+            target: "js2.all.js",
             include: [
-                '../js/main.js',
-                '../js/sub.js'
+                '../js/sub.js',
+                '../js/main.js'
             ]
         }
     ],
