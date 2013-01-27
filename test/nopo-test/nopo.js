@@ -1,14 +1,16 @@
 module.exports = {
-    "NOPO_PARSER": "nopo-node",
-    "TARGET_ROOT": "./nopo_node",
+    "nopoParser": "nopo-node",
+    "targetRoot": "./nopo_node",
+    "meta": {
+        
+    },
     "tasks": {
         "task1": {
             "cmd": "clean",
-            "source": "./nopo_node",
-            "target": "./"
+            "source": ["nopo_node", "publsh.zip"]
         },
         "task2": {
-            "source": "**",
+            "source": ["**", "!cache.manifest"],
             "target": "./"
         },
         "task3": {
@@ -29,9 +31,19 @@ module.exports = {
         "task6": {
             "cmd": "pack",
             "source": ["nopo_node/**"],
-            "target": "./../out.zip",
+            "target": "./../publsh.zip",
             "@pack": {
                 'basePath': 'nopo_node'
+            }
+        },
+        "task7": {
+            "cmd": "replace",
+            "source": "./cache.manifest",
+            "target": "./app.manifest",
+            "@replace": {
+                'meta': {
+                    'timestamp': '<%= nopo.template.today() %>'
+                }
             }
         },
     }

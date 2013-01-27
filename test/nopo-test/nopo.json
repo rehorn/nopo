@@ -1,6 +1,6 @@
 {
-    "NOPO_PARSER": "nopo-json",
-    "ADD_PLAIN_EXT": "abc,def",
+    "nopoParser": "nopo-json",
+    "addPlainExt": "abc,def",
     "tasks": {
         "task1": {
             "cmd": "copy|compress",
