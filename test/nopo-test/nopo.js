@@ -13,6 +13,10 @@ module.exports = {
             "source": ["**", "!cache.manifest"],
             "target": "./"
         },
+        "task21": {
+            "source": ["nopo_node/build.bat"],
+            "target": "./"
+        },
         "task3": {
             "cmd": "concat",
             "source": "js/*.js",
@@ -31,9 +35,9 @@ module.exports = {
         "task6": {
             "cmd": "pack",
             "source": ["nopo_node/**"],
-            "target": "./../publsh.zip",
+            "target": "./../publish.zip",
             "@pack": {
-                'basePath': 'nopo_node'
+                "basePath": "nopo_node"
             }
         },
         "task7": {
@@ -45,6 +49,10 @@ module.exports = {
                     'timestamp': '<%= nopo.template.today() %>'
                 }
             }
+        },
+        "task8": {
+            "cmd": "optimage",
+            "source": "./nopo_node/**"
         },
     }
 }
