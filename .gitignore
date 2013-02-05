@@ -48,3 +48,5 @@ intermediate
 publish
 .idea
 
+# test file
+test/nopo_test/nopo_node

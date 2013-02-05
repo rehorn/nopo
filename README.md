@@ -41,3 +41,16 @@ NoPo (No-Person-Operation) 是一个基于 NodeJS 平台的任务型 Web 项目自动化构建和编
 * 在 WebQQ、Q+、QQ互联、Alloy团队等项目中都有应用
 * NoPo 是在参考了大量开源项目（如grunt，jake，ant）后，结合工作需要和实践，整理出一套前端工具。
 * 将在后续不断完善，欢迎讨论提意见
+
+## 安装
+### windows
+git clone https://github.com/rehorn/nopo
+
+### linux
+git clone https://github.com/rehorn/nopo
+cd nopo
+chmod +x ./lib/cmd/minify/node_modules/uglify-js/bin/uglifyjs
+chmod +x ./lib/cmd/minify/node_modules/uglify-js/bin/cleancss
+chmod +x ./lib/cmd/optimage/bin/gifsicle
+chmod +x ./lib/cmd/optimage/bin/jpegtran
+chmod +x ./lib/cmd/optimage/bin/optipng
