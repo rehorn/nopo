@@ -6,8 +6,7 @@ module.exports = {
             "source": "**",
             "target": "/htdocs/",
             "@deploy": {
-                "type": "ftp",
-                "host": "223.7.143.233​",
+                "host": "223.7.143.233",
                 "port": "21",
                 "user": "hmu046233",
                 "password": "member99"
