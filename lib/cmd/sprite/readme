@@ -3,3 +3,13 @@
 # linux
 
 # mac
+
+# param
+group: floder, project
+ratios: retina support
+layout: bin-packing,vertical,vertical-right,horizon,horizon-bottom
+css namespace
+sprite images namespace
+png8
+hash
+css background expression optimize
