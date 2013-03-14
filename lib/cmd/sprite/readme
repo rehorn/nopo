@@ -45,3 +45,23 @@ _.extend(options, cmdConfig.options);
 // 按照文件夹分类对图片进行平铺方式分类 \ 将img按照平铺方式进行智能分类
 // 生成sprite cache对象，xy等信息
 // 扫描css并进行位置替换
+
+# Requirements
+Spritesmith supports multiple sprite engines however all of the current engines require external software to be installed.
+
+As a result, you must either have Cairo or Graphics Magick installed for Spritesmith to run properly.
+
+Cairo (node-canvas)
+
+Due to dependance on node-canvas, you must install Cairo.
+
+Instructions on how to do this are provided in the node-canvas wiki.
+
+Additionally, you will need to install node-gyp
+
+sudo npm install -g node-gyp
+Graphics Magick (gm)
+
+The alternative engine is gm which runs on top of Graphics Magick.
+
+I have found it is best to install from the site rather than through a package manager (e.g. apt-get) to get the latest as well as without transparency issues.
