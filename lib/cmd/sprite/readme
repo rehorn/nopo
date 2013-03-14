@@ -14,12 +14,54 @@ png8
 hash
 css background expression optimize
 
-old sprite
-repeat-x
-repeat-y
-position: right center bottom
-background-size
+# THANKS TO 
+https://github.com/twolfson/layout/
+https://github.com/Ensighten/spritesmith
 
-max sprite size
-images margin
+#
+// 不支持远程图片支持，remote
+// remote: { 
+//     staticRoot: '',
+//     localImgRoot: ''
+// }
+// 最佳实践：跳过远程url路径(引用别的模块png),本地图片如果合并后需要使用cdn asset hosts进行分流，使用css cmd进行再次处理即可
+var options = {
+    type: 'folder', // folder, project
+    layout: 'packing', // packing, vertical, horizontal, vertical-right, horizontal-bottom
+    // order: '', // 'maxSide', 'width', 'height', 'area'
+    prefix: 'sprite_',
+    maxSize: 0, // sprite max size 
+    png8: 0,
+    ratio: 1,
+    hash: 1,
+    optiCss: 0,
+    optiImg: 1
+};
+_.extend(options, cmdConfig.options);
 
+// 载入css
+// 分析background和background-image
+// 将background-position，repeat信息解析出来
+// 按照文件夹分类对图片进行平铺方式分类 \ 将img按照平铺方式进行智能分类
+// 生成sprite cache对象，xy等信息
+// 扫描css并进行位置替换
+
+# Requirements
+Spritesmith supports multiple sprite engines however all of the current engines require external software to be installed.
+
+As a result, you must either have Cairo or Graphics Magick installed for Spritesmith to run properly.
+
+Cairo (node-canvas)
+
+Due to dependance on node-canvas, you must install Cairo.
+
+Instructions on how to do this are provided in the node-canvas wiki.
+
+Additionally, you will need to install node-gyp
+
+sudo npm install -g node-gyp
+Graphics Magick (gm)
+
+The alternative engine is gm which runs on top of Graphics Magick.
+
+I have found it is best to install from the site rather than through a package manager (e.g. apt-get) to get the latest as well as without transparency issues.

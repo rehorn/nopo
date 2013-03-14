@@ -1,0 +1,64 @@
+.test_css1{
+    width: 20px;
+    height: 20px;
+    background: url(../img/test_png.png);
+}
+
+.test_css2{
+    background: url(../img/test_png2.png) repeat;
+    /*background-size: 1*/
+}
+
+.test_css3{
+    background: url(../img/test_png2.png) repeat-x;
+}
+
+.test_css4{
+    background: url(../img/test_png2.png) repeat-y;
+}
+
+.test_css5{
+    background-image: url(../img/test_png2.png);
+}
+
+.test_css6{
+    background: url(../img/test_png2.png) 0 0;
+}
+
+.test_css7{
+    background: url(../img/test_png2.png) -10px -10px;
+}
+
+.test_css8{
+    background: url(../img/test_png2.png);
+    background-position: -20px -20px;
+}
+
+.test_css9{
+    background: url(../img/test_png2.png) no-repeat 0 0, url(../img/test_png5.png) no-repeat 0 0;
+}
+
+.test_css10{
+    background: url(../img/test_png2.png), url(../img/test_png5.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0;
+}
+
+.test_css11{
+    background-image: url(../img/test_png2.png), url(../img/test_png5.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, 0 0;
+}
+
+.test_css12{
+    background: url(../img/test_png2.png) 0 0 no-repeat, url(../img/test_png5.png) 0 0 no-repeat;
+}
+
+.test_css13{
+    _background: url(../img/test_png2.png) 0 0;
+    _background-image: url(../img/test_png2.png);
+}
+
+.test_css13{
+    background: url('http://1.abc.com/cdn/static/folder/test_png2.png');
+}

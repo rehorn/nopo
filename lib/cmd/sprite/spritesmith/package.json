@@ -1,0 +1,31 @@
+{
+  "name": "spritesmith",
+  "version": "0.3.7",
+  "description": "Utility that takes images and creates a spritesheet with JSON sprite data",
+  "main": "src/smith.js",
+  "scripts": {
+    "test": "mocha src-test/smith.test.js"
+  },
+  "keywords": [
+    "sprite",
+    "spritesheet",
+    "css"
+  ],
+  "author": "Todd Wolfson <todd@twolfson.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~0.1.22",
+    "layout": "~1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.7.0"
+  },
+  "optionalDependencies": {
+    "canvas": "~0.13.0",
+    "gm": "~1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ensighten/spritesmith.git"
+  }
+}
