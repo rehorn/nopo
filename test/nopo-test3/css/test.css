@@ -38,7 +38,6 @@
     background: url(../img/test_png2.png) no-repeat 0 0, url(../img/test_png5.png) no-repeat 0 0;
 }
 
-
 .test_css10{
     background: url(../img/test_png2.png), url(../img/test_png5.png);
     background-repeat: no-repeat;
@@ -53,4 +52,13 @@
 
 .test_css12{
     background: url(../img/test_png2.png) 0 0 no-repeat, url(../img/test_png5.png) 0 0 no-repeat;
+}
+
+.test_css13{
+    _background: url(../img/test_png2.png) 0 0;
+    _background-image: url(../img/test_png2.png);
+}
+
+.test_css13{
+    background: url('http://1.abc.com/cdn/static/folder/test_png2.png');
 }

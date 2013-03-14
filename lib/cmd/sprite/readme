@@ -13,3 +13,32 @@ sprite images namespace
 png8
 hash
 css background expression optimize
+
+
+#
+// 不支持远程图片支持，remote
+// remote: { 
+//     staticRoot: '',
+//     localImgRoot: ''
+// }
+// 最佳实践：跳过远程url路径(引用别的模块png),本地图片如果合并后需要使用cdn asset hosts进行分流，使用css cmd进行再次处理即可
+var options = {
+    type: 'folder', // folder, project
+    layout: 'packing', // packing, vertical, horizontal, vertical-right, horizontal-bottom
+    // order: '', // 'maxSide', 'width', 'height', 'area'
+    prefix: 'sprite_',
+    maxSize: 0, // sprite max size 
+    png8: 0,
+    ratio: 1,
+    hash: 1,
+    optiCss: 0,
+    optiImg: 1
+};
+_.extend(options, cmdConfig.options);
+
+// 载入css
+// 分析background和background-image
+// 将background-position，repeat信息解析出来
+// 按照文件夹分类对图片进行平铺方式分类 \ 将img按照平铺方式进行智能分类
+// 生成sprite cache对象，xy等信息
+// 扫描css并进行位置替换
