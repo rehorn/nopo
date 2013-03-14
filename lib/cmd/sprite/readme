@@ -13,3 +13,13 @@ sprite images namespace
 png8
 hash
 css background expression optimize
+
+old sprite
+repeat-x
+repeat-y
+position: right center bottom
+background-size
+
+max sprite size
+images margin
+
