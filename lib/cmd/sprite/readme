@@ -17,6 +17,7 @@ css background expression optimize
 # THANKS TO 
 https://github.com/twolfson/layout/
 https://github.com/Ensighten/spritesmith
+https://github.com/iAdramelk/grunt-oversprite
 
 #
 // 不支持远程图片支持，remote

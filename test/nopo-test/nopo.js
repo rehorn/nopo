@@ -7,10 +7,11 @@ module.exports = {
     "tasks": {
         "task1": {
             "cmd": "clean",
-            "source": ["nopo_node", "publsh.zip"]
+            "source": ["nopo_node/", "publsh.zip"]
         },
         "task2": {
-            "source": ["**", "!cache.manifest"],
+            // "source": ["**", "!cache.manifest"],
+            "source": ["./", "!cache.manifest"],
             "target": "./"
         },
         "task21": {
@@ -24,17 +25,20 @@ module.exports = {
         },
         "task4": {
             "cmd": "qzmin",
-            "source": ["tools/*.qzmin", "tools/tmp/test_qzmin3.qzmin"],
+            // "source": ["tools/*.qzmin", "tools/tmp/test_qzmin3.qzmin"],
+            "source": ["tools/", "tools/tmp/test_qzmin3.qzmin"],
             "target": "./qzmin/"
         },
         "task5": {
             "cmd": "minify",
-            "source": ["nopo_node/css/**", "nopo_node/js/**"],
+            // "source": ["nopo_node/css/**", "nopo_node/js/**"],
+            "source": ["nopo_node/css/", "nopo_node/js/"],
             "target": "./"
         },
         "task6": {
             "cmd": "pack",
-            "source": ["nopo_node/**"],
+            // "source": ["nopo_node/**"],
+            "source": ["nopo_node/"],
             "target": "./../publish.zip",
             "@pack": {
                 "basePath": "nopo_node"
@@ -52,7 +56,8 @@ module.exports = {
         },
         "task8": {
             "cmd": "optimage",
-            "source": "./nopo_node/**"
+            // "source": "./nopo_node/**"
+            "source": "nopo_node/"
         },
     }
 }

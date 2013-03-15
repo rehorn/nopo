@@ -1,0 +1,337 @@
+[class^="icon-"],
+[class*=" icon-"]{
+    display: inline-block;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+}
+
+.icon-search {
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/icon-search.png);
+}
+
+.icon-down-arrow {
+    width: 8px;
+    height: 5px;
+    background-image: url(./slice/icon-input-down-arrow.png);
+}
+.icon-up-arrow {
+    width: 8px;
+    height: 5px;
+    background-image: url(./slice/icon-input-up-arrow.png);
+}
+
+.icon-nav-people{
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/icon-nav-people.png);
+}
+
+a:hover > .icon-nav-people {
+    background-image: url(./slice/icon-nav-people-hover.png);
+}
+
+.icon-nav-group{
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/icon-nav-group.png);
+}
+
+a:hover > .icon-nav-group {
+    background-image: url(./slice/icon-nav-group-hover.png);
+}
+
+.icon-nav-business{
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/icon-nav-business.png);
+}
+
+a:hover > .icon-nav-business {
+    background-image: url(./slice/icon-nav-business-hover.png);
+}
+
+
+.icon-male {
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/icon-male.png);
+}
+
+.icon-female {
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/icon-female.png);
+}
+.icon-group{
+    width: 18px;
+    height: 13px;
+    vertical-align: middle;
+    background-image: url(./slice/icon-group.png);
+}
+.icon-loc {
+    padding-bottom:2px;
+    width: 10px;
+    height: 11px;
+    vertical-align: middle;
+    background-image: url(./slice/icon-loc.png);
+}
+.icon-loc.enable{
+    padding-right: 1px;
+    width: 10px;
+    height: 11px;
+    vertical-align: -2px;
+    background-image: url(./slice/btn-loc-enable.png);
+}
+
+
+
+[class^="btn-"],
+[class*=" btn-"] {
+    display: inline-block;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.btn-loc {
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/btn-loc-disable.png);
+}
+
+.btn-loc.enable{
+    width: 14px;
+    height: 14px;
+    background-image: url(./slice/btn-loc-enable.png);
+}
+
+.btn-loc > span{
+    border-radius: 4px;
+    z-index:10;
+    display:none; 
+    padding:6px;
+    margin-top:-40px; 
+    margin-left:-160px;
+    width:270px; 
+    line-height:16px;
+}
+
+.btn-loc.enable > span{
+    width:130px;
+    margin-left:-80px;
+}
+
+.btn-loc:hover > span{
+    display:inline; 
+    position:absolute; 
+    color:#C3963C;
+    border:1px solid #C2B27D; 
+    background:#FFEEBF;
+}
+
+.btn-loc > span > b {
+    background: #FFEEBF;
+    border-top: 1px solid #C2B27D;
+    border-right: 1px solid #C2B27D;
+    width: 8px;
+    height: 8px;
+    margin-left: 146px;
+    margin-top: 18px;
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(135deg);
+    box-shadow: inset 0 1px 0 #fff;
+}
+
+.btn-loc.enable > span > b{
+    margin-left: 66px;
+}
+
+.btn-loc.enable:hover .enable, .btn-loc.disable:hover .disable{
+    display: none;
+}
+
+.btn-search {
+    width: 86px;
+    height: 33px;
+    outline: none;
+    background-image: url(./slice/btn-search.png);
+}
+
+.btn-search:hover {
+    background-image: url(./slice/btn-search-hover.png);
+}
+
+.btn-search:active {
+    background-image: url(./slice/btn-search-active.png);
+}
+
+
+.btn-prev {
+    width: 21px;
+    height: 20px;
+    background-image: url(./slice/btn-prev.png);
+}
+
+.btn-prev.disable, .btn-prev.disable:hover {
+    width: 21px;
+    height: 20px;
+    cursor: default;
+    pointer-events: none;
+    background-image: url(./slice/btn-prev-disable.png);
+}
+
+.btn-prev:hover {
+    background-image: url(./slice/btn-prev-hover.png);
+}
+
+.btn-next {
+    width: 21px;
+    height: 20px;
+    background-image: url(./slice/btn-next.png);
+}
+.btn-next:hover {
+    background-image: url(./slice/btn-next-hover.png);
+}
+
+.btn-next.disable, .btn-next.disable:hover {
+    width: 21px;
+    height: 20px;
+    cursor: default;
+    pointer-events: none;
+    background-image: url(./slice/btn-next-disable.png);
+}
+
+
+.btn-add-people {
+    width: 72px;
+    height: 20px;
+    background-image: url(./slice/btn-add-people.png);
+}
+
+.btn-add-people:hover {
+    background-image: url(./slice/btn-add-people-hover.png);
+}
+
+
+.btn-add-group {
+    width: 72px;
+    height: 20px;
+    background-image: url(./slice/btn-add-group.png);
+}
+
+.btn-add-group:hover {
+    background-image: url(./slice/btn-add-group-hover.png);
+}
+
+.btn-overlay-close, .btn-overlay-close:hover, .btn-overlay-close:active {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    z-index: 1;
+}
+
+.btn-overlay-close {
+    background-image: url(./slice/btn-overlay-close.png);
+}
+
+.btn-overlay-close:hover {
+    background-image: url(./slice/btn-overlay-close-hover.png);
+}
+
+.btn-overlay-close:active {
+    background-image: url(./slice/btn-overlay-close-active.png);
+}
+
+.btn-open-photo{
+    width: 14px;
+    height: 13px;
+    margin-top: 2px;
+    cursor:pointer;
+    background-image: url(./slice/btn-photo.png);
+}
+
+.btn-open-photo:hover{
+    background-image: url(./slice/btn-photo-hover.png);
+}
+
+
+.btn-dialog {
+    width: 15px;
+    height: 15px;
+    background-image: url(./slice/btn-dialog.png);
+}
+.btn-dialog:hover {
+    background-image: url(./slice/btn-dialog-hover.png);
+}
+.btn-dialog:active {
+    background-image: url(./slice/btn-dialog-active.png);
+}
+
+.btn-dialog2 {
+    width: 22px;
+    height: 20px;
+    background-image: url(./slice/btn-dialog2.png);
+}
+
+.btn-add {
+    width: 22px;
+    height: 20px;
+    background-image: url(./slice/btn-add.png);
+}
+
+.btn-add:hover {
+    background-image: url(./slice/btn-add-hover.png);
+}
+
+.btn-certification {
+    width: 17px;
+    height: 17px;
+    vertical-align: bottom;
+    background-image: url(./slice/btn-certification.png);
+}
+
+.btn-unit-close {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    width: 15px;
+    height: 15px;
+    background: #eff6fb url(./slice/btn-unit-close.png) 0 0 no-repeat;
+    display: none;
+}
+
+.unit:hover .btn-unit-close{
+    display: block;
+}
+.unit:hover .btn-unit-close:hover{
+    background-image:url(./slice/btn-unit-close-hover.png);
+}
+
+/** 转菊花  **/
+.loading_css3 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    margin-top: -24px;
+    margin-left: -24px;
+    width: 48px;
+    height: 48px;
+    background: url(./slice/loading.png) 0 0;
+    -webkit-animation-duration: 500ms;                        /*一个周期动画执行时间*/
+-webkit-animation-iteration-count: infinite;              /*这里表示执行无限次，即菊花一直转*/
+-webkit-animation-timing-function: step-start;            /*动画执行方式*/
+-webkit-animation-name: animate01;                        /*指定要执行的动画的名称*/
+}
+@-webkit-keyframes animate01 {0%{ background-position:0px 0; }12.5%{ background-position:48px 0; }25%{ background-position:96px 0; }37.5%{ background-position:144px 0; }50%{ background-position:192px 0; }62.5%{ background-position:240px 0; }75%{ background-position:288px 0; }87.5%{ background-position:336px 0; }100%{ background-position:384px 0; }}

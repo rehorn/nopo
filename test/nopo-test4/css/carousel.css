@@ -1,0 +1,82 @@
+/*跑马灯组件*/
+
+.carousel {
+    position: relative;
+    line-height: 1;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.2s ease-in-out left;
+    transition: 0.2s ease-in-out left;
+}
+
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+    display: block;
+}
+
+.carousel-inner > .active {
+    left: 0;
+}
+
+.carousel-inner > .next,
+.carousel-inner > .prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.carousel-inner > .next {
+    left: 100%;
+}
+
+.carousel-inner > .prev {
+    left: -100%;
+}
+
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+    left: 0;
+}
+
+.carousel-inner > .active.left {
+    left: -100%;
+}
+
+.carousel-inner > .active.right {
+    left: 100%;
+}
+
+
+/* 业务通用样式 */
+
+.carousel-title {
+    font-size: 14px;
+    color: #3B3B3B;
+    padding-top: 4px;
+    margin-left: 9px;
+    margin-bottom: 5px;
+    position:relative;
+}
+
+.carousel {
+    padding-top: 10px;
+    color: #6e6e6e;
+}
+
+.carousel-control {
+    /*display: inline-block;
+    float: right;*/
+    position: absolute;
+    top: -2px;
+    right: 10px;
+}

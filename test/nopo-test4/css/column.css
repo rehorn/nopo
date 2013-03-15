@@ -1,0 +1,44 @@
+.columns {
+    display: inline-block;
+    width: 625px;
+    vertical-align: top;
+}
+
+.column {
+    padding: 15px 0 35px 0;
+}
+
+.column-title {
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.column-inner div {
+    display: inline-block;
+}
+
+.column-inner > img {
+    width: 60px;
+    height: 60px;
+}
+
+.column-detail {
+    padding-left: 10px;
+    width: 520px;
+}
+
+.column-detail > p {
+    color: #6E6E6E;
+    line-height: 20px;
+}
+
+.column-detail > p:first-child{
+    color: #3B3B3B;
+}
+
+.column-detail > p:last-child {
+    border-top: #EEE 1px solid;
+}
+
+

@@ -1,0 +1,174 @@
+
+#hy-header {
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+#hy-search {
+    text-align: center;
+    position: relative;
+}
+
+#hy-search .icon-search {
+    position: absolute;
+    top:12px;
+    left:32px;
+}
+
+#hy-search .btn-loc{
+    position: absolute;
+    top:12px;
+    right:118px;
+}
+
+#hy-search .btn-search {
+    position: absolute;
+    top:3px;
+    right:25px;
+}
+
+#hy-search-input{
+    border: 1px solid #d1d1d1;
+    font-size: 15px;
+    width: 700px;
+    height: 40px;
+    padding: 0 125px 0 35px;
+    border-radius: 20px;
+    outline: none;
+    opacity: 0.5;
+    border: 1px solid rgba(209, 209, 209, 0.2)
+}
+
+#hy-search-input:focus {
+    opacity: 1;
+}
+
+
+#hy-nav {
+    height: 99px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#hy-nav a {
+    color: #686868;
+}
+
+#hy-nav a:hover{
+    color: #2183c8
+}
+
+#hy-nav strong {
+    color: #686868;
+    width: 50px;
+    display: inline-block;
+}
+
+#hy-nav a:hover > strong {
+    color: #2183c8
+}
+
+#hy-nav > div {
+    padding: 16px 20px;
+}
+
+#hy-nav > div > p{
+    line-height: 20px;
+    padding-bottom: 4px;
+}
+#hy-nav > div > p > a {
+    margin-right: 15px;
+}
+
+#hy-nav i {
+    display: inline-block;
+    width: 23px;;
+}
+
+
+#hy-recommend .avatar-wrapper{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#hy-recommend .avatar-wrapper > span{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    background: #ececec;
+    border-radius: 3px;
+}
+
+#hy-recommend img{
+    vertical-align: middle;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#hy-find-fuzzy img{
+    height: 60px;
+    width: 60px;
+}
+
+#hy-recommend-people {
+    padding-top: 20px;
+    margin-left: -10px;
+}
+
+#hy-recommend-people .unit,
+#hy-recommend-group .unit {
+    display: inline-block;
+    /*padding-right: 10px;*/
+}
+
+#hy-recommend-people .unit:last-child,
+#hy-recommend-group .unit:last-child {
+    padding-right: 0;
+}
+
+#hy-recommend-people .unit > div,
+#hy-recommend-group .unit > div{
+    display: inline-block;
+    width: 100px;
+    padding-right:10px;
+}
+
+
+#hy-find-accurate-sidebar .unit > div {
+    display: inline-block;
+}
+
+.hy-find-accurate-row div,
+.hy-find-fuzzy-row div {
+    display: inline-block;
+}
+
+#hy-main{
+    height: 320px;
+    /*background: url(x2scrap.png) no-repeat;*/
+}
+
+#hy-main > div {
+    padding: 0 20px;
+    /*padding: 0 10px;*/
+}
+
+
+#hy-main .hy-search-unit > div{
+    height: 60px;
+}
+
+
+
+#hy-main .columns, #hy-main .aside {
+    height: 325px;
+}
+
+#hy-recommend-group{
+    padding-top:13px;
+    margin-left: -10px;
+}
+
+
+

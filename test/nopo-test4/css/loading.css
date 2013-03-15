@@ -1,0 +1,19 @@
+
+.loading{
+    min-width: 140px;
+    display: none;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    margin-top: -5px;
+    margin-left: -70px;
+    height: 9px;
+    background: url(../img/loading.gif) no-repeat;
+}
+
+.loading.error{
+    background: none;
+}

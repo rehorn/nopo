@@ -1,0 +1,561 @@
+/* 选取年龄的下拉框的样式 开始 */
+.age-ul {
+    display: none;
+    overflow-y: hidden;
+    width: 104px;
+    margin-left: 9px;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+.age-ul li {
+    padding-left: 4px;
+    line-height: 20px;
+    height: 20px;
+}
+.age-ul li:hover {
+    background-color: #4199D7;
+    line-height: 20px;
+    height: 20px;
+}
+/* 选取年龄的下拉框的样式 结束 */
+
+/* 选取性别的下拉框的样式 开始 */
+.sex-ul {
+    display: none;
+    overflow-y: hidden;
+    width: 104px;
+    margin-left: 9px;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+.sex-ul li {
+    padding-left: 4px;
+    line-height: 20px;
+    height: 20px;
+}
+.sex-ul li:hover {
+    background-color: #4199D7;
+    line-height: 20px;
+    height: 20px;
+}
+/* 选取性别的下拉框的样式 结束 */
+
+
+
+/*选取所在地和故乡的下拉框的样式开始*/
+.province-box ul, .city-box ul, .country-box ul, .district ul, .age-ul, .sex-ul {
+    /*width: 146px;*/
+    max-height: 200px;
+    -height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #f3f9fc;
+    border: solid 1px #57a8e4;
+    cursor: auto;
+    padding: 1px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    z-index: 10;
+}
+.province-box ul, .city-box ul, .country-box ul, .district ul{
+    width: 146px;
+}
+.province-box ul li, .city-box ul li, .country-box ul li, .district ul li{
+    padding-left: 5px;
+    line-height: 20px;
+    height: 20px;
+}
+.province-box ul li:hover, .city-box ul li:hover, .country-box ul li:hover, .district ul li:hover{
+    background-color: #4199D7;
+    line-height: 20px;
+    height: 20px;
+}
+#pe-location-info {
+    -webkit-user-select:none;
+}
+#pe-hometown-info {
+    -webkit-user-select:none;
+}
+#location-generator {
+    display: none;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 324px;
+    height: 67px;
+    border: 1px solid #2e85b8;
+    border-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 0 0 2px 1px #2e85b8;
+    z-index: 10;
+}
+.country-box, .province-box, .city-box, .district {
+    background-color: #FFF;
+    border: 1px solid #e2e3e3;
+    border-radius: 4px;
+    width: 150px;
+    height: 25px;
+}
+.country-box:hover, .province-box:hover, .city-box:hover, .district:hover{
+    border: 1px solid #57a8e4;
+}
+.country-box.disabled:hover, .province-box.disabled:hover, .city-box.disabled:hover, .district.disabled:hover{
+    border: 1px solid #e2e3e3;
+}
+.country-box.disabled, .province-box.disabled, .city-box.disabled, .district.disabled{
+    background-color: #EEE;
+}
+#location-generator .country-box input[type="text"], #location-generator .province-box input[type="text"], #location-generator .city-box input[type="text"], #location-generator .district input[type="text"] {
+    color: #000;
+    width: 140px;
+    height: 19px;
+    border: 0px solid #fff;
+    line-height: 22px;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 5px;
+    outline: none;
+    padding: 0;
+}
+.country-box .icon-down-arrow, .province-box .icon-down-arrow, .city-box .icon-down-arrow, .district .icon-down-arrow {
+     position: absolute;
+     left: 133px;
+     top: 10px;
+ }
+.country-box .icon-up-arrow, .province-box .icon-up-arrow, .city-box .icon-up-arrow, .district .icon-up-arrow {
+    position: absolute;
+    left: 133px;
+    top: 10px;
+}
+.country-box {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.province-box {
+    position: absolute;
+    left: 165px;
+    top: 5px;
+}
+.city-box {
+    position: absolute;
+    left: 5px;
+    top: 37px;
+}
+.district {
+    position: absolute;
+    left: 165px;
+    top: 37px;
+}
+.country-ul, .province-ul, .city-ul, .district-ul {
+    display: none;
+}
+
+
+/*选区所在地和故乡的下拉框的样式结束*/
+/* 找人页搜索栏 开始 */
+
+#pe-header {
+    height: auto;
+    padding: 20px 0;
+}
+
+
+#pe-search{
+    width: 855px;
+    padding-left: 20px;
+}
+
+#pe-search p{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#pe-header .pe-white-font {
+    color: #fff;
+    font-size: 13px;
+}
+#pe-header input[type="text"] {
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #62a8c8;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 9px;
+    height: 24px;
+    line-height: 24px;
+}
+#pe-header input[type="checkbox"] {
+    margin-left: 26px;
+}
+#pe-hometown-label {
+    margin-left: 24px;
+}
+#pe-header #pe-search-input {
+    width: 392px;
+    line-height: 12px;
+}
+#pe-location-info, #pe-hometown-info {
+    width: 155px;
+}
+#pe-age-label, #pe-sex-label {
+    margin-left: 25px;
+}
+#pe-age-label {
+    margin-top: 2px;
+}
+#pe-age, #pe-sex {
+    width: 90px;
+    -webkit-user-select:none;
+}
+#pe-age + .icon-down-arrow, #pe-age + .icon-up-arrow {
+    position: absolute;
+    left: 101px;
+    top: 10px;
+}
+#pe-hometown-info + .icon-down-arrow, #pe-hometown-info + .icon-up-arrow {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+}
+#pe-location-info-label {
+    margin-top: 2px;
+}
+#pe-hometown-label {
+    margin-top: 2px;
+}
+#pe-location-info + .icon-down-arrow, #pe-location-info + .icon-up-arrow {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+}
+#pe-sex + .icon-down-arrow , #pe-sex + .icon-up-arrow{
+    position: absolute;
+    left: 101px;
+    top: 10px;
+}
+
+#pe-search-input-p >  .btn-loc {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+/* 找人页搜索栏 结束 */
+#pe-main {
+    width: 900px;
+    height: 390px;
+    background: url(x2scrap.png) no-repeat;
+}
+#pe-main > div {
+    padding-left: 20px;
+}
+
+
+/*找人默认页开始*/
+#people {
+    padding-bottom: 2px;
+    margin-top: 14px;
+}
+#pe-default-nav , #pe-default-nav a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #686868;;
+    height: 30px;
+    line-height: 30px;
+}
+#pe-default-nav {
+    color: #686868;
+    padding-left: 19px;
+}
+#pe-default-nav a{
+    font-weight: normal;
+    margin-left: 6px;
+}
+#pe-default-nav a:hover {
+    color: #0582d2;
+}
+
+/*分享我的地理位置tip开始*/
+#pe-nearly-people {
+    margin-top: 0px;
+    background-color: #FFF;
+    padding-top: 4px;
+    width: 900px;
+    height: 200px;
+    margin-left: -10px;
+}
+#pe-nearly-people .carousel-title {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+#pe-nearly-people .carousel-control {
+    margin-right: 20px;
+}
+#pe-nearly-people .carousel-inner {
+    height: 165px;
+    overflow-y: hidden;
+}
+#pe-nearly-people-tip {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 858px;
+    height: 155px;
+    border-radius: 3px;
+    background: #FFF url(slice/pe-location-tip.png) 0 0 no-repeat;
+}
+
+#pe-see-nearly-people, #pe-see-nearly-people:hover, #pe-see-nearly-people:active {
+    position: absolute;
+    width: 128px;
+    height: 35px;
+    left: 486px;
+    top: 85px;
+    background: #f5f7f8 url(slice/btn-search-near-people.png) 0 0 no-repeat;
+}
+
+#pe-see-nearly-people:hover {
+    background: #f5f7f8 url(slice/btn-search-near-people-hover.png) 0 0 no-repeat;
+}
+
+#pe-see-nearly-people:active {
+    background: #f5f7f8 url(slice/btn-search-near-people-active.png) 0 0 no-repeat;
+}
+
+
+/*分享我的地理位置tip结束*/
+
+/*推荐好友开始*/
+#pe-recommend-people {
+    padding-top: 0px;
+    height: 200px;
+    width: 900px;
+    background-color: #FFF;
+    margin-left: -10px;
+}
+#pe-recommend-people .carousel-title {
+    /*padding-top: 14px;*/
+    /*padding-bottom: 5px;*/
+    margin-top:14px;
+}
+#pe-recommend-people .carousel-control {
+    margin-right: 20px;
+}
+
+
+/*推荐好友结束*/
+/*找人默认页结束*/
+
+/*找人精确结果页开始*/
+#pe-specify-res-nav {
+    position: relative;
+    height: 28px;
+    top: 0;
+    left: 0;
+}
+
+.pe-nav-left-input-label {
+    color: #686868;
+    line-height: 28px;
+    position: absolute;
+    left: 20px;
+    font-size: 14px;
+}
+
+/*找人精确结果页结束*/
+
+/*找人模糊结果页开始*/
+#pe-sim-res-nav {
+    height: 28px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#pe-sim-nav-left {
+    position: absolute;
+    /*top: 4px;*/
+    left: 16px;
+    height: 28px;
+}
+#pe-sim-nav-left span {
+    margin-left: 2px;
+}
+#pe-sim-nav-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 28px;
+    width: 190px;
+    color: #686868;
+    line-height: 28px;
+    font-size: 14px;
+}
+#pe-sim-nav-right span, #pe-sim-nav-right a {
+    height: 28px;
+    line-height: 28px;
+    margin-left: 6px;
+}
+.pe-nav-separator {
+    line-height: 10px;
+    font-size: 10px;
+    color: #686868;
+}
+#pe-nav .btn-overlay-close {
+    /*margin-right: 11px;*/
+}
+#pe-sim-nav-right #pe-default-order, #pe-sim-nav-right #pe-distance-order {
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    width: 32px;
+    padding-left: 6px;
+    color: #686868;
+}
+#pe-sim-nav-right #pe-default-order:hover, #pe-sim-nav-right #pe-distance-order:hover {
+    color: #333;
+    background-color: rgba(180, 196, 158, 0.20);
+    box-shadow: inset 0px 1px 1px rgba(70,74,80,0.38), 0px 1px 1px rgba(224,246,255,0.2);
+    border-radius: 10px;
+}
+#pe-sim-nav-right #pe-default-order.active, #pe-sim-nav-right #pe-distance-order.active {
+    color: #333;
+    background-color: rgba(180, 196, 158, 0.20);
+    box-shadow: inset 0px 1px 1px rgba(70,74,80,0.38), 0px 1px 1px rgba(224,246,255,0.2);
+    border-radius: 10px;
+}
+
+/* 找人页 精确搜索结果 dom空间 开始 */
+#pe-search-res-clas-dom {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+}
+/* 找人页 精确搜索结果 dom空间 结束 */
+/*<!--找人页 模糊搜索结果页 dom空间 开始-->*/
+div#pe-search-res-sim-dom {
+    padding-left: 10px;
+    width: 890px;
+    height: 370px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: none;
+    background-color: #FFF;
+}
+#pe-search-res-sim-dom .unit{
+    margin-bottom: 12px;
+}
+
+
+/* 菊花 container  start */
+.pe-search-res-loading-tip {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 48px;
+}
+/* 菊花 container  end */
+
+
+
+/*<!--找人页 模糊搜索结果页 dom空间 结束-->*/
+
+/*找人模糊结果页结束*/
+
+
+
+
+
+#same-town-freiends {
+    padding-left: 4px;
+}
+#same-town-relat {
+    padding-left: 4px;
+}
+#pe-header-right {
+    padding-top: 11px;
+}
+#pe-header-left-upper {
+    height: 24px;
+}
+#pe-header-left-down {
+    margin-top: 14px;
+    height: 24px;
+}
+
+#pe-header-left, #pe-header-right {
+    display: inline-block;
+}
+
+#pe-header-right {
+    vertical-align: middle;
+    float: right;
+}
+
+#pe-header-left-upper p{
+    float: left;
+    line-height: 24px;
+    overflow: visible;
+}
+#pe-header-left-down p {
+    float : left;
+    line-height: 24px;
+}
+
+.pe-search-online > input, .pe-search-camera > input{
+    vertical-align: -1px;
+}
+
+
+#pe-sex::-webkit-input-placeholder { color:#000; }
+#pe-location-info::-webkit-input-placeholder { color:#000; }
+#pe-hometown-info::-webkit-input-placeholder { color:#000; }
+#pe-age::-webkit-input-placeholder { color:#000; }
+#country-value::-webkit-input-placeholder { color:#000; }
+#province-value::-webkit-input-placeholder { color:#000; }
+#district-value::-webkit-input-placeholder { color:#000; }
+#city-value::-webkit-input-placeholder { color:#000; }
+
+#province-value[disabled], #city-value[disabled], #district-value[disabled] {
+    background-color: #EEE;
+}
+#country-value, #province-value, #city-value, #district-value {
+    -webkit-user-select:none;
+}
+
+#country-value[disabled]::-webkit-input-placeholder {
+    color: #C2C1C3;
+}
+#province-value[disabled]::-webkit-input-placeholder {
+    color: #C2C1C3;
+}
+#city-value[disabled]::-webkit-input-placeholder {
+    color: #C2C1C3;
+}
+#district-value[disabled]::-webkit-input-placeholder {
+    color: #C2C1C3;
+}
+
+
+#pe-main .recommend-row .unit > div{
+    width: 130px;
+}
+.unit a:hover {
+    color: #2183c8;
+}
+#pe-accurate-result-recommend-sidebar a:hover {
+    color: #2183c8;
+}
+img.avatar-wrapper:hover {
+    box-shadow: 0 0 2px 2px #93D0F8;
+}
+#pe-search-res-clas-dom a:hover {
+    color: #2183c8;
+}

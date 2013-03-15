@@ -1,0 +1,103 @@
+
+#find-copyright{
+    display:none;
+}
+.copyright-dialog{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 9999999;
+}
+
+.copyright-dialog-wrapper{
+    position: absolute;
+    padding:5px 10px;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    margin-top: -80px;
+    margin-left: -270px;
+    width: 540px;
+    height: 160px;
+    border: 1px solid #4E6C79;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, 
+        left top, 
+        left bottom, 
+        color-stop(0%,rgba(157,212,246,1)), 
+        color-stop(25%,rgba(255,255,255,1)), 
+        color-stop(78%,rgba(255,255,255,1)), 
+        color-stop(78%,rgba(195,223,239,1)), 
+        color-stop(100%,rgba(195,223,239,1))
+    );
+
+}
+
+.copyright-dialog-mask{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    opacity:0.5;
+}
+
+.copyright-dialog-wrapper > p{
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+.copyright-dialog-wrapper > p > span{
+    display:inline-block;
+    width: 10px;
+    height: 14px;
+    margin: 0 2px;
+    background-image: url(./slice/btn-loc-enable.png);
+}
+
+.copyright-dialog-header{
+    position:relative;
+    margin-bottom: 25px;
+}
+
+.copyright-dialog-header > a{
+    color: #eee;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+
+.copyright-dialog-header > a:hover{
+    color: #fff;
+    text-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+
+.copyright-dialog-header > p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.copyright-dialog-footer{
+    margin-top: 34px;
+    text-align: right;
+}
+
+.copyright-dialog-footer > a{
+    color:#005B98;
+    margin-right: 10px;
+    border: 1px solid #418AB6;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(219,239,248,1)), color-stop(100%,rgba(186,223,240,1)));
+}
+
+.copyright-dialog-footer > a:hover{
+    box-shadow: 0 0 3px #418AB6;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(186,223,240,1)), color-stop(100%,rgba(219,239,248,1)));
+}

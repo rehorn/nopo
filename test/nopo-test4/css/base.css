@@ -1,0 +1,130 @@
+html {
+    font: 12px/1.5 Tahoma, "Microsoft Yahei", Helvetica,Arial;
+}
+
+body {
+    height: 600px;
+    -webkit-user-select:none;
+    user-select:none;
+    cursor: default;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+
+menu {
+    padding-top: 10px;
+}
+
+main {
+    /*background: rgba(255,255,255,0.8);*/
+    /*background: #fff;*/
+}
+
+header {
+    /* W3C Markup, IE10 Release Preview http://ie.microsoft.com/testdrive/graphics/cssgradientbackgroundmaker/default.html */
+    /* Webkit (Chrome 11+) */
+
+    /*background-image: -webkit-linear-gradient(left, rgba(62, 145, 187, 0.5) 0%, rgba(124, 204, 236, 0.5) 100%);*/
+    /*background-image: linear-gradient(to right, rgba(62, 145, 187, 0.5) 0%, rgba(124, 204, 236, 0.5) 100%);*/
+
+    background-image:-webkit-gradient(linear, 3% 0%, 73% 100%, from(#408FBC), to(#7CCAEC));
+}
+
+nav {
+    background-image: -webkit-linear-gradient(left, rgba(228, 234, 237, 1)  0%, rgba(234, 240, 243, 1) 100%);
+    background-image: linear-gradient(to right, rgba(228, 234, 237, 1)  0%, rgba(234, 240, 243, 1) 100%);
+}
+
+section {
+    margin: 0 auto;
+    width: 900px;;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #000;
+    text-decoration: none;
+    outline: 0;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.red {
+    color: #c00000;
+}
+
+.grey {
+    color: #EDEDED;
+}
+
+a.blue {
+    color: #2183c8;
+    text-decoration: none;
+}
+
+a.blue:hover,
+a.blue:focus {
+    color: #2183c8;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+.pull-right {
+    float: right;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.h20 {
+    height: 20px;
+    vertical-align: baseline;
+}
+
+.h40 {
+    vertical-align: bottom;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    height: 35px;
+    line-height: 18px;
+    white-space: normal;
+}
+
+.h41 {
+    padding-top: 18px;
+    height: 22px;
+    white-space: normal;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0;
+}

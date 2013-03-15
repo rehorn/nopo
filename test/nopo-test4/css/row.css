@@ -1,0 +1,105 @@
+.recommend-row {
+    width: 900px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recommend-row .unit {
+    float: left;
+    border: 1px solid #fff;
+    padding: 8px 0 8px 8px;
+    margin-right: 9px;
+    display: inline-block;
+    position: relative;
+}
+
+.unit > div {
+    width: 105px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.unit p:first-child{
+    font-size: 14px;
+    color: #3b3b3b;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recommend-row .unit > div{
+    width:125px;
+}
+
+
+.recommend-row img {
+    width: 60px;
+    height: 60px;
+}
+
+.recommend-row.larger img {
+    width: auto;
+    height: auto;
+}
+
+.recommend-row .unit:hover {
+    border: 1px solid #E7F0F8;
+    background-color: #EFF6FB;
+}
+
+.recommend-row .unit:hover .avatar-wrapper:hover{
+    box-shadow: 0 0 2px 2px #93D0F8;
+}
+
+.recommend-row .avatar-wrapper{
+    border-radius: 3px;
+}
+
+#pe-search-res-sim-dom .recommend-row .unit:hover {
+    border: 1px solid #fff;
+    border-color: #fff;
+}
+#pe-nearly-people .recommend-row .unit:hover {
+    border: 1px solid #fff;
+    border-color: #fff;
+}
+
+/*推荐框内文字信息提示结束*/
+
+/** 年龄 和地址信息要显示灰白色 **/
+.recommend-row p.age-and-location {
+    color: #6E6E6E;
+}
+
+.search-row {
+    color: #6e6e6e;
+}
+
+.search-row p:first-child{
+    font-size: 14px;
+    color: #3b3b3b;
+    height: 20px;
+}
+
+.search-row p:first-child a, .recommend-row p:first-child a {
+    display: inline-block;
+    max-width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.search-row > .unit {
+    width: 210px;
+    padding-bottom: 20px;
+}
+
+.search-row > .unit > div {
+    padding-left: 4px;
+    width: 130px;
+}
+
+.search-row div {
+    display: inline-block;
+}

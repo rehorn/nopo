@@ -1,0 +1,7 @@
+/* context menu */
+.context-menu {position:absolute;z-index:10;width:122px;height:140px;cursor:default;background:url("http://3.url.cn/qun/search2/img/menu.png") no-repeat;padding:2px 0;}
+.context-menu li {font-size:12px;margin-left:2px;line-height:22px;height:22px;margin-top:0;margin-bottom:0;}
+.context-menu li a {display:block;padding-left:34px;color:black;cursor:default;}
+.context-menu li a:hover {background:url("http://3.url.cn/qun/search2/img/menu.png") no-repeat -124px 0;color:white;}
+.context-menu li.disabled a {color:#7e8990;background:none;}
+.context-menu li.sep {margin-left:28px;margin-top:2px;margin-top:1px\9;margin-bottom:1px;margin-bottom:0\9;padding-left:0;height:0;line-height:0;border-top:1px solid #b6c2cc;overflow:hidden;font-size:0;}

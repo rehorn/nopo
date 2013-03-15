@@ -1,0 +1,53 @@
+/* the overlayed element */
+.overlay {
+    /*display:none;*/
+
+    /* place overlay on top of other elements */
+    z-index: 999;
+
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.6);
+
+    height: 420px;
+}
+
+.overlay:before, .overlay:after{
+    /*border: red 1px solid;*/
+    content: ' ';
+    width:8px;
+    height:100%;
+    position:absolute;
+    
+    /*background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));*/
+    background:-webkit-gradient(linear, 100% 0%, 100% 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+}
+
+.overlay:before{
+    left:-4px;
+}
+
+.overlay:after{
+    top:0px;
+    right:-4px;
+}
+
+/* close button positioned on upper right corner */
+.overlay .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.overlay-inner {
+    padding-top: 10px;
+}
+
+
+#hy-main .overlay-inner > p {
+    padding: 20px 0;
+}
