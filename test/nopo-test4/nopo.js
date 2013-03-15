@@ -6,7 +6,7 @@ module.exports = {
             "source": "css/",
             "target": "build/",
             "@sprite": {
-                'imgRoot': "css/slice/"
+                'imgRoot': "css/"
             }
         }
     }
