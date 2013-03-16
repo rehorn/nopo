@@ -72,3 +72,22 @@ source 选择器示例
 ./abc*.js -> *0个以上任意字符 如：‘./abc.js’, ‘./abc1.js’, ‘./abc01.js’
 #./aab.js -> 注释用的
 !./aab.js -> 非
+
+## 关于自动合图约定规范
+背景图定位position
+尽量避免left/top/center/right/bottom等定位方式的使用（如果使用了，在smart合图引擎下，会使用对角线diagnose算法合并）
+不能使用百分比，如42%
+推荐使用标准px单位
+
+背景图repeat
+repeat不能和position一起使用，使用repeat的图片直接跳过，不参与合图
+css中repeat为缺省值，但在实际应用中，大多数情况下，不写 repeat 是因为背景图大小和所在容器的大小一致，开发者省略了
+因而在nopo自动合图中，如果css不写repeat，认为是no-repeat
+需要横向纵向平铺的样式，必须加上repeat-x，repeat-y
+
+关于background写法
+推荐使用backgound-image,background-position这样分开的属性写法，替换css的时候可以通过optiCss参数选择是否合成background
+background合并的写法处理
+
+关于多背景
+
