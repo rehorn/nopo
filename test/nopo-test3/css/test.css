@@ -62,3 +62,20 @@
 .test_css13{
     background: url('http://1.abc.com/cdn/static/folder/test_png2.png');
 }
+
+@keyframes myname{
+    0%{
+    	background: url(../img/test_png2.png) 0 0 no-repeat;
+    }
+    100%{
+    	background: url(../img/test_png2.png) 0 0 no-repeat;
+    }
+}
+
+@media all and (width:1024px){
+    .test_css11{
+        background-image: url(../img/test_png2.png), url(../img/test_png5.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0 0, 0 0;
+    }
+}
