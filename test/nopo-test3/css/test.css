@@ -51,6 +51,7 @@
 
 .test_css10{
     background: url(../img/test_png10.png), url(../img/test_png101.png);
+    background-image: url(../img/test_png11.png);
     background-repeat: no-repeat;
     background-position: 0 0, 0 0;
 }

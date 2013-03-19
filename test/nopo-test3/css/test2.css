@@ -1,0 +1,11 @@
+
+
+.test_css1{
+    width: 20px;
+    height: 20px;
+    background: url(../img/slice/test_png.png);
+}
+
+.test_css2{
+    background: url(../img/slice/test_png2.png) repeat;
+}

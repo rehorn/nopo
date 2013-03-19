@@ -84,7 +84,7 @@ padding对图片容器宽高的影响
 切图容器不建议设置padding，在box-sizing:content-box默认设置下，padding会影响容器实际宽高
 
 背景图定位position
-尽量避免left/top/center/right/bottom/百分比（50% 100%）等定位方式的使用（如果使用了，在smart合图引擎下，会使用对角线diagnose算法合并）
+尽量避免left/top/center/right/bottom/百分比（50% 100%、）等定位方式的使用（如果使用了，在smart合图引擎下，会使用对角线diagnose算法合并）
 推荐使用标准px单位，如：background-position: -20 -20;
 
 背景图repeat
@@ -94,7 +94,8 @@ css中repeat为缺省值，但在实际应用中，大多数情况下，不写 r
 需要横向纵向平铺的样式，必须加上repeat-x，repeat-y
 
 关于background写法
-推荐使用backgound-image,background-position这样分开的属性写法，替换css的时候可以通过optiCss参数选择是否合成background
+支持background合成写法
+推荐使用backgound-image,background-position这样分开的属性写法，替换css的时候可以通过mergeBackground参数选择是否合成background
 background合并的写法处理
 
 暂跳过含有css3相关 background 新特性的class样式
@@ -102,7 +103,8 @@ background合并的写法处理
 background-size
 background-clip
 background-origin
-background:url(),url(),url()
+
+支持background多背景写法，但不推荐使用
 
 @import, @keyframes, @charset, @media, @font-face, @page中规则的处理
 只处理@media和部分@keyframes
