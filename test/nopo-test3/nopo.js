@@ -2,7 +2,7 @@ module.exports = {
     "nopoParser": "nopo-node",
     "tasks": {
         "html": {
-            "source": "index.html"
+            "source": "test.html"
         },
         "sprite":{
             "cmd": "sprite",
