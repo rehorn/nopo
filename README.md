@@ -45,7 +45,7 @@ NoPo (No-Person-Operation) 是一个基于 NodeJS 平台的任务型 Web 项目�
 ### windows
 ```shell
 git clone https://github.com/rehorn/nopo
-
+```
 ### linux
 ```shell
 git clone https://github.com/rehorn/nopo
@@ -55,7 +55,7 @@ chmod +x ./lib/cmd/minify/node_modules/uglify-js/bin/cleancss
 chmod +x ./lib/cmd/optimage/bin/gifsicle
 chmod +x ./lib/cmd/optimage/bin/jpegtran
 chmod +x ./lib/cmd/optimage/bin/optipng
-
+```
 ## config 文件夹说明
 支持 glob 配置，如果为文件夹必须以 ‘/’ 结尾
 source 选择器示例
@@ -76,7 +76,7 @@ source 选择器示例
 !./aab.js -> 非
 / -> 当前盘根目录，如 E:\\
 /Server -> E:\\Server\\ 在win平台下推荐使用相对路径写法
-
+```
 ## 关于自动合图约定规范
 ### 图片容器大小
 * 为了减低合图算法复杂度，背景图宽高必须和所在容器的宽高一致
