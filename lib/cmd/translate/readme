@@ -1,0 +1,12 @@
+# css lang translate
+less
+sass
+stylus
+
+# js lang translate
+coffee
+
+# template translate
+.tpl
+html tempate preprocess
+

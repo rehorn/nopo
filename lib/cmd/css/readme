@@ -1,4 +1,4 @@
-# hash images
+# hash images timestamp or filename
 # base64 datauri
 # cdn host assets, relative -> multi host assets
-# add resources(images) hash mark
+# add resources(images) hash mark at the bottom of css
