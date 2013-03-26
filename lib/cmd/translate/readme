@@ -8,5 +8,5 @@ coffee
 
 # template translate
 .tpl
-html tempate preprocess
+html tempate pre-process (html -> js)
 

@@ -1,4 +1,8 @@
-# hash images timestamp or filename
-# base64 datauri
-# cdn host assets, relative -> multi host assets
-# add resources(images) hash mark at the bottom of css
+### images cache buster 
+add cache buster using timestamp or hash
+### base64 datauri
+change refer images to base64
+### host
+cdn host assets, relative -> multi host assets
+### mark
+add resources(images) hash mark at the bottom of css
