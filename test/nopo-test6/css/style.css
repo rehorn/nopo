@@ -1,0 +1,24 @@
+
+.test_css{
+    background-image: url(../img/test.png?v=20120312);
+    width: 45px;
+    height: 45px;
+}
+
+.test_css2{
+    background-image: url(../img/test2.png);
+    width: 45px;
+    height: 45px;
+}
+
+.test_css4{
+    background-image: url(../img/test2.png);
+    width: 45px;
+    height: 45px;
+}
+
+.test_css3{
+    background-image: url(../img/test3.png);
+    width: 45px;
+    height: 45px;
+}
