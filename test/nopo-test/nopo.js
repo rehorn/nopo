@@ -1,22 +1,31 @@
 module.exports = {
     "nopoParser": "nopo-node",
-    "targetRoot": "./nopo_node",
+    "targetRoot": "nopo_node/",
     "meta": {
         
     },
     "tasks": {
-        "task1": {
-            "cmd": "clean",
-            "source": ["nopo_node/", "publsh.zip"]
-        },
-        "task2": {
-            // "source": ["**", "!cache.manifest"],
-            "source": ["./", "!cache.manifest"],
-            "target": "./"
-        },
+        // disable
+        // "task1": {
+        //     "cmd": "clean",
+        //     "source": ["nopo_node/", "publsh.zip"]
+        // },
+        // "task2": {
+        //     // "source": ["**", "!cache.manifest"],
+        //     "source": ["./", "!cache.manifest"],
+        //     "target": "./"
+        // },
         "task21": {
             "source": ["nopo_node/build.bat"],
             "target": "./"
+        },
+        "task22": {
+            "source": ["css/"],
+            "target": "css4/"
+        },
+        "task23": {
+            "source": ["css/main.css"],
+            "target": "css4/main2.css"
         },
         "task3": {
             "cmd": "concat",
@@ -39,7 +48,7 @@ module.exports = {
             "cmd": "pack",
             // "source": ["nopo_node/**"],
             "source": ["nopo_node/"],
-            "target": "./../publish.zip",
+            "target": "../publish.zip",
             "@pack": {
                 "basePath": "nopo_node"
             }
