@@ -72,6 +72,7 @@ source 选择器示例
 ./**/*.{js,txt} -> 获取 js/txt 
 ./abc?.js -> ?指代1个任意字符 如：‘./abc1.js’,
 ./abc*.js -> *0个以上任意字符 如：‘./abc.js’, ‘./abc1.js’, ‘./abc01.js’
+./abc**.js -> *0个以上任意字符 如：‘./abc.js’, ‘./abc1.js’, ‘./abc01.js’
 #./aab.js -> 注释用的
 !./aab.js -> 非
 / -> 当前盘根目录，如 E:\\
