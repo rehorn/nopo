@@ -6,22 +6,25 @@ module.exports = {
     },
     "tasks": {
         // disable
-        // "task1": {
-        //     "cmd": "clean",
-        //     "source": ["nopo_node/", "publsh.zip"]
-        // },
-        // "task2": {
-        //     // "source": ["**", "!cache.manifest"],
-        //     "source": ["./", "!cache.manifest"],
-        //     "target": "./"
-        // },
+        "task1": {
+            "cmd": "clean",
+            "source": ["../publish.zip"]
+        },
+        "task2": {
+            // "source": ["**", "!cache.manifest"],
+            "source": ["./", "!nopo.js"],
+            "target": "./"
+        },
         "task21": {
             "source": ["nopo_node/build.bat"],
             "target": "./"
         },
         "task22": {
-            "source": ["css/"],
-            "target": "css4/"
+            "source": ["css/", "js/"],
+            "target": "css4/",
+            "@copy": {
+                "basePath": "css/"
+            }
         },
         "task23": {
             "source": ["css/main.css"],
@@ -48,7 +51,7 @@ module.exports = {
             "cmd": "pack",
             // "source": ["nopo_node/**"],
             "source": ["nopo_node/"],
-            "target": "../publish.zip",
+            "target": "../../publish.zip",
             "@pack": {
                 "basePath": "nopo_node"
             }
