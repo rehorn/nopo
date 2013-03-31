@@ -3,13 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>test manifest</title>
-    <!-- build:css, stamp:1 -->
+    <!-- build:css, dest:cdn/css/main.css, stamp:md5, rev:1, assetHosts:1, basePath:cdn/ -->
     <link rel="stylesheet" href="css/style.css?v=20130101" media="all">
+    <!-- endbuild -->
+    <!-- build:css, inline:1 -->
+    <link rel="stylesheet" href="css/inline/inline.css" media="all">
     <!-- endbuild -->
 </head>
 <body>
-    <!-- build:js, dest:js/main.js, stamp:1 -->
+    <!-- build:tmpl, res:tmpl2js -->
+    <script type="text/tmpl">
+    </script>
+    <script type="text/tmpl">
+    </script>
+    <script type="text/tmpl">
+    </script>
+    <script type="text/tmpl">
+    </script>
+    <!-- endbuild -->
+    <!-- build:js, dest:js/main.js, assetHosts:1 -->
     <script src="js/main.js?v=20130101"></script>
+    <script src="js/module/module.js"></script>
+    <!-- endbuild -->
+    <!-- build:remove -->
+    <script src="js/live-reload.js"></script>
+    <script src="js/less.js"></script>
+    <!-- endbuild -->
+    <!-- build:include, res:h5Timing -->
+    <!-- endbuild -->
+    <!-- build:include, res:googleAnalytics -->
     <!-- endbuild -->
 </body>
 </html>

@@ -5,7 +5,8 @@ module.exports = {
             "cmd": "sprite",
             "source": "css/",
             "@sprite": {
-                'imgRoot': "css/"
+                "imgRoot": "css/",
+                "output": "sprite/"
             }
         }
     }

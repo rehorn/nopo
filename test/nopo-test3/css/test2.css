@@ -1,43 +1,51 @@
 
-
+/* normal background test */
 .test_css1{
     width: 22px;
     height: 20px;
     background: url(../img/slice/test_png.png);
 }
 
+/* normal background-image test */
 .test_css2{
     width: 22px;
     height: 20px;
     background-image: url(../img/slice/test_png.png);
 }
 
+/* normal background, repeat not spriting */
 .test_css3{
     width: 72px;
     height: 20px;
     background: url(../img/slice/test_png2.png) repeat;
 }
 
+/* normal background, img @ root */
 .test_css4{
     width: 72px;
     height: 20px;
     background: url(../img/test_png2.png);
 }
 
+/* normal background, 图片不在imgRoot下，只copy */
 .test_css4{
     background-image: url(../img2/test_png.png);
     width: 22px;
     height: 20px;
 }
 
+/* ie6 support TODO: ie6 13%-, 建议使用pngfix.js */
 .test_css5{
     _background: url(../img/slice/test_png2.png) 0 0;
 }
 
+/* ie6 support TODO: ie6 13%-, 建议使用pngfix.js */
 .test_css6{
     _background-image: url(../img/slice/test_png2.png) 0 0;
 }
 
+
+/* normal background sprite slice2, with positioning */
 .loading_status1{
     width: 48px;
     height: 48px;
