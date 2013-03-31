@@ -1,0 +1,25 @@
+{
+    "name": "nopo",
+    "version": "0.1.1",
+    "description": "task-based build tool for web project",
+    "keywords": ["cleancss", "uglifyjs", "sprite", "tools", "build", "packages", "deploy"],
+    "maintainers": [
+        {"name": "rehorn", "web": "https://github.com/rehorn"}
+    ],
+    "homepage": "https://github.com/rehorn/nopo",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "node-inspector": "0.1.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rehorn/nopo.git"
+    },
+    "engines": {"node": ">= 0.6.x"},
+    "bugs": {"url": "https://github.com/rehorn/nopo/issues"},
+    "bin": {
+        "mod": "./bin/nopo"
+    },
+    "preferGlobal": true
+}
