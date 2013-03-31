@@ -1,12 +1,11 @@
 # css lang translate
-less
-sass
-stylus
+less -> css
+sass -> css
+stylus -> css
 
 # js lang translate
-coffee
+coffee -> js
 
 # template translate
-.tpl
-html tempate pre-process (html -> js)
+.tpl -> html
 
