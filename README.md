@@ -103,7 +103,8 @@ padding对图片容器宽高的影响
 
 背景图定位position
 ```
-尽量避免left/top/center/right/bottom/百分比（50% 100%、）等定位方式的使用（如果使用了，在smart合图引擎下，会使用对角线diagnose算法合并）
+尽量避免left/top/center/right/bottom/百分比 (50% 100%) 等定位方式的使用
+(如果使用了，在smart合图引擎下，会使用对角线diagnose算法合并)
 推荐使用标准px单位，如：background-position: -20 -20;
 ```
 
