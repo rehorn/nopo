@@ -3,11 +3,11 @@ Signature="$CHICAGO$"
 Provider=%Author%
 
 [Strings] 
-Product="modjs" 
+Product="nopo" 
 Version="1.0" 
-Author="yuanyan@tencent.com" 
+Author="rehornchen@tencent.com" 
 Copyright="Copyright 2012" 
-Title="Use Mod" 
+Title="Use NoPo" 
 Cmd="cmd.exe /k cd %1"
 Icon="regedit.exe" 
 Position="Bottom"
