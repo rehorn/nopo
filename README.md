@@ -66,6 +66,7 @@ sudo npm install -g node-gyp
 * file-check：文件类型、大小监控
 * live-build：监控文件系统变动，自动执行制定编译命令
 
+## 配置说明
 ### 如何在 nopo.js 定义一个 NoPo 任务（Task）
 ```js
 module.exports = {
@@ -118,7 +119,7 @@ module.exports = {
 }
 ```
 
-### 运行 examples
+## 运行 examples
 cd path-to-nopo/test/nopo-test
 nopo
 
