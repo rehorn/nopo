@@ -1,6 +1,6 @@
 {
     "name": "nopo",
-    "version": "0.1.1",
+    "version": "0.1.8",
     "description": "task-based build tool for web project",
     "keywords": ["cleancss", "uglifyjs", "sprite", "tools", "build", "packages", "deploy"],
     "maintainers": [
