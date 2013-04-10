@@ -66,7 +66,7 @@ sudo npm install -g node-gyp
 * file-check：文件类型、大小监控
 * live-build：监控文件系统变动，自动执行制定编译命令
 
-## 如何在 nopo.js 定义一个 NoPo 任务（Task）
+### 如何在 nopo.js 定义一个 NoPo 任务（Task）
 ```js
 module.exports = {
     "tasks": {
@@ -87,10 +87,10 @@ module.exports = {
     }   
 }
 ```
-## NoPo 中并行与串行
+### NoPo 中并行与串行
 nopo 默认支持命令和任务的并行和串行，使用“,”代表并行，使用“|”代表串行
 
-## 如何在 nopo.js 定义一个包含并行串行命令的 NoPo 任务（Task）
+### 如何在 nopo.js 定义一个包含并行串行命令的 NoPo 任务（Task）
 ```js
 module.exports = {
     "tasks": {
@@ -117,6 +117,10 @@ module.exports = {
     }   
 }
 ```
+
+### 运行 examples
+cd path-to-nopo/test/nopo-test
+nopo
 
 ## 说明
 NoPo 前身是本人之前为项目写的一个 [python 项目编译脚本](https://github.com/rehorn/webcompiler.git)
