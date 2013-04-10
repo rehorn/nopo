@@ -120,8 +120,10 @@ module.exports = {
 ```
 
 ## 运行 examples
+```shell
 cd path-to-nopo/test/nopo-test
 nopo
+```
 
 ## 说明
 NoPo 前身是本人之前为项目写的一个 [python 项目编译脚本](https://github.com/rehorn/webcompiler.git)
