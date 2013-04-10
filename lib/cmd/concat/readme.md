@@ -1,4 +1,4 @@
-# 合并文件 combine files into one
+## 合并文件 combine files into one
 ### 任务demo
 ```js
 module.exports = {
