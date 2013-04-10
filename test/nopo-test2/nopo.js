@@ -6,10 +6,10 @@ module.exports = {
             "source": "**",
             "target": "/htdocs/",
             "@deploy": {
-                "host": "223.7.143.233",
+                "host": "***",
                 "port": "21",
-                "user": "hmu046233",
-                "password": "member99"
+                "user": "***",
+                "password": "***"
             }
         }
     }
