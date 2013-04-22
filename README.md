@@ -39,7 +39,7 @@ sudo npm install -g node-gyp
 ```
 
 ## NoPo 内置命令
-* [build: 常用 web 项目编译任务
+* [build](https://github.com/rehorn/nopo/tree/master/lib/cmd/build): 常用 web 项目编译任务
 * [clean](https://github.com/rehorn/nopo/tree/master/lib/cmd/clean)：删除文件或文件夹
 * [concat](https://github.com/rehorn/nopo/tree/master/lib/cmd/concat)：合并多个文件为一个
 * [copy](https://github.com/rehorn/nopo/tree/master/lib/cmd/copy)：复制文件或文件夹
