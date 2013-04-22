@@ -39,27 +39,27 @@ sudo npm install -g node-gyp
 ```
 
 ## NoPo 内置命令
-* build: 常用 web 项目编译任务
-* clean：删除文件或文件夹
-* concat：合并多个文件为一个
-* copy：复制文件或文件夹
-* css：css优化命令，如：为图片自动增加时间戳/md5等，添加随机cdn host前缀等
-* deploy：将本地文件通过 ftp/rsync 等方式发布到远程机器
-* examples：命令插件demo
-* exec：子进程执行系统命令简单封装
-* htmlrefs：编译 html，实现引用 js/css 资源合并
-* jsdoc：使用 jsdoc-toolkit/yuidoc 生成 jsdoc 文档
-* lint：js/css 代码质量检查
-* manifest：自动生成 html5 app cache manifest
-* minify：js/css/html 代码压缩
-* optimage：图片资源压缩
-* pack：文件/文件夹打包 zip
-* qzmin：解析 fiddler willow qzmin 文件，文件自定义合并
-* replace：文件内容变量替换
-* require：支持 requirejs 打包
-* sprite：自动合图引擎 tango
-* translate：支持 less/sass/coffee 实时编译成 js/css
-* utest：单元测试
+* [build: 常用 web 项目编译任务
+* [clean](https://github.com/rehorn/nopo/tree/master/lib/cmd/clean)：删除文件或文件夹
+* [concat](https://github.com/rehorn/nopo/tree/master/lib/cmd/concat)：合并多个文件为一个
+* [copy](https://github.com/rehorn/nopo/tree/master/lib/cmd/copy)：复制文件或文件夹
+* [css](https://github.com/rehorn/nopo/tree/master/lib/cmd/css)：css优化命令，如：为图片自动增加时间戳/md5等，添加随机cdn host前缀等
+* [deploy](https://github.com/rehorn/nopo/tree/master/lib/cmd/deploy)：将本地文件通过 ftp/rsync 等方式发布到远程机器
+* [examples](https://github.com/rehorn/nopo/tree/master/lib/cmd/examples)：命令插件demo
+* [exec](https://github.com/rehorn/nopo/tree/master/lib/cmd/exec)：子进程执行系统命令简单封装
+* [htmlrefs](https://github.com/rehorn/nopo/tree/master/lib/cmd/htmlrefs)：编译 html，实现引用 js/css 资源合并
+* [jsdoc](https://github.com/rehorn/nopo/tree/master/lib/cmd/jsdoc)：使用 jsdoc-toolkit/yuidoc 生成 jsdoc 文档
+* [lint](https://github.com/rehorn/nopo/tree/master/lib/cmd/lint)：js/css 代码质量检查
+* [manifest](https://github.com/rehorn/nopo/tree/master/lib/cmd/manifest)：自动生成 html5 app cache manifest
+* [minify](https://github.com/rehorn/nopo/tree/master/lib/cmd/minify)：js/css/html 代码压缩
+* [optimage](https://github.com/rehorn/nopo/tree/master/lib/cmd/optimage)：图片资源压缩
+* [pack](https://github.com/rehorn/nopo/tree/master/lib/cmd/pack)：文件/文件夹打包 zip
+* [qzmin](https://github.com/rehorn/nopo/tree/master/lib/cmd/qzmin)：解析 fiddler willow qzmin 文件，文件自定义合并
+* [replace](https://github.com/rehorn/nopo/tree/master/lib/cmd/replace)：文件内容变量替换
+* [require](https://github.com/rehorn/nopo/tree/master/lib/cmd/require)：支持 requirejs 打包
+* [sprite](https://github.com/rehorn/nopo/tree/master/lib/cmd/sprite)：自动合图引擎 tango
+* [translate](https://github.com/rehorn/nopo/tree/master/lib/cmd/translate)：支持 less/sass/coffee 实时编译成 js/css
+* [utest](https://github.com/rehorn/nopo/tree/master/lib/cmd/utest)：单元测试
 * ...
 
 ## NoPo 内建行为
