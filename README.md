@@ -76,7 +76,7 @@ module.exports = {
             "cmd": "copy",
             // required 任务作用域
             "source": ["css/"],
-            // optional 任务输入目录，默认为当前
+            // optional 任务输出目录，默认为当前
             "target": "./",
             // optional 任务分组，默认为all
             "mode": "dev",
@@ -100,7 +100,7 @@ module.exports = {
             "cmd": "copy|css,optimage",
             // required 任务作用域
             "source": ["src/"],
-            // optional 任务输入目录，默认为当前
+            // optional 任务输出目录，默认为当前
             "target": "./",
             // optional 命令参数，会将@copy参数传给copy命令
             "@copy":{

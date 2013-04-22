@@ -1,6 +1,27 @@
-# auto sprite tool engine - tango
+### 自动合图引擎 Tango
+查看 [demo](https://github.com/rehorn/nopo/blob/master/test/nopo-test3/nopo.js)
 
-## 关于自动合图约定规范
+### 命令参数说明
+```js
+spriter: 'tango', // tango, smart
+engine: 'auto', // auto, gm, canvas
+prefix: 'sprite-',
+hash: 1,
+optiImg: 1,
+layout: 'packing', // packing, top-down, top-down-width, left-right,left-right-height, diagonal \, alt-diagonal /
+imgRoot: './',
+output: './',
+fixIe6: 0,
+mergeBackground: 1
+```
+
+### 任务demo
+
+### 任务效果
+
+
+-----------
+### 关于自动合图约定规范
 图片容器大小
 ```
 为了减低合图算法复杂度，背景图宽高必须和所在容器的宽高一致
@@ -92,7 +113,7 @@ background-repeat为显示注明repeat
 2、通过添加fixIe6:1参数，自定生成一张sprite-png8.png合图，自动增加_background-image: url() 属性
 ```
 
-## 合图替换方案 -> datauri + mhtml(ie6/7/8)
+### 合图替换方案 -> datauri + mhtml(ie6/7/8)
 ```
 datauri
 优点：将图片base64打包到css中，可以减少请求
@@ -102,7 +123,7 @@ base64比图片大一倍，经过gzip后其实更小
 直接对图片进行gzip，某些浏览器可能出现cpu占用高
 ```
 
-# THANKS TO 
+### THANKS TO 
 https://github.com/twolfson/layout/
 https://github.com/Ensighten/spritesmith
 https://github.com/iAdramelk/grunt-oversprite
